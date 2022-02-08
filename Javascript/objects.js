@@ -21,7 +21,7 @@ const cpu = {   /* Processor */
     //Slots = 0     
     CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
     //StorageSlot = //[1-8 / Itt a szám után nem kell vessző azt hiszem]
-    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
+    //Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 
 
@@ -34,7 +34,7 @@ const ram = {   /* RAM */
     //Slots = 0       
     //CPUSlot = ""  //[AM4 , LGA1151 , LGA1200]
     //StorageSlot = //[1-8 / Itt a szám után nem kell vessző azt hiszem]
-    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
+    //Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 
 
