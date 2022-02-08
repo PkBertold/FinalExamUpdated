@@ -69,19 +69,20 @@
 
 .card { /* ITEM KÁRTYÁK friss*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  min-width: 320px;
-  max-width: 350px;
-  min-height: 500px;
-  max-height: 550px;
+  min-width: 300px;
+  max-width: 330px;
+  min-height: 480px;
+  max-height: 530px;
   margin: auto;
   padding: auto;
   justify-content: center;
   font-family: arial;
-  background-color: lightyellow;
+  background-color: lightgray;
 }
 
 .cardbox{ /* ITEM KÁRTYÁK teszt*/
   border: 1px solid black;
+  display: block;
   width: 200px;                       /* Kártyák szélessége */
   height: max-content;
   justify-content: center;
@@ -127,7 +128,7 @@ p { /* DEBUG RED OUTLINE */
 }
 
 label{ /* DEBUG, KÉSŐBB TÖRÖLNI!! */
-  background: white;
+  color: white;
 }
 
 .footertabla{
@@ -180,15 +181,38 @@ input{
   font-size: 12px;
 }
 
+.plusbutton{
+  color: red;
+}
 
 
 
 
+#qty{ /* Mennyiség input mező */
+  background-color: green;
+}
 
 
+.plusbutton{ /* Plusz 1 Vásárlás gomb */
+  color: white;
+  background-color: green;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
 
+.minbutton{ /* Plusz 1 Vásárlás gomb */
+  color: white;
+  background-color: green;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
 
-
+.mennyiseg{
+  align-self: center;
+}
 
 
 .card button:hover {

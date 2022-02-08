@@ -42,12 +42,18 @@
 </div>
 -->
 <div class="row">
-  <div class="col-10">IMAGE</div>
+  <div class="col-9">IMAGE</div>
+  <div class="col-1">Kosár</div>
   <div class="col-1"><a href="">Regisztráció</a></div>
   <div class="col-1"><a href="">Belépés</a></div>
 </div>
 
 
+
+<!-- CHECKBOX TESZT-->
+Checkbox: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
 
 
 </div>
@@ -97,11 +103,6 @@
   <input type="checkbox" id="" name="">
   <label for="">LGA1200</label>
 </div>
-<div>
-  <input type="checkbox" id="" name="">
-  <label for="">LGA1700</label>
-</div>
-
 <br>
 
 <div>
@@ -271,303 +272,257 @@
 <div class="products">
 
   <div class="card">
-        <h1>PC1</h1>
+        <h1>PC 1</h1>
     <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
       <table class="pcparts">
         <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Power Supply: </th>
-          <th>600 W</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+      </table>
+    <p class="price">220.000 Ft</p>
+    <div class="mennyiseg">
+        <span class="minbutton">-</span>
+        <input type="text" name="qty" id="qty" maxlength="12" disabled/>
+        <span class="plusbutton">+</span>
+      </div>
+    <p><button>MEGVESZEM</button></p>
+  </div>
+
+  
+  <div class="card">
+        <h1>PC 2</h1>
+    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
+      <table class="pcparts">
+        <tr>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
       </table>
     <p class="price">220.000 Ft</p>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
 
   <div class="card">
-        <h1>PC2</h1>
+        <h1>PC 3</h1>
     <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
       <table class="pcparts">
         <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
       </table>
     <p class="price">220.000 Ft</p>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
 
   <div class="card">
-        <h1>PC3</h1>
+        <h1>PC 4</h1>
     <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
       <table class="pcparts">
         <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
       </table>
     <p class="price">220.000 Ft</p>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
 
   <div class="card">
-        <h1>PC4</h1>
+        <h1>PC 5</h1>
     <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
       <table class="pcparts">
         <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
       </table>
     <p class="price">220.000 Ft</p>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
 
   <div class="card">
-        <h1>PC5</h1>
+        <h1>PC 6</h1>
     <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
       <table class="pcparts">
         <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Motherboard:</th><th>Tomahawk B450M</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Processzor:</th><th>AMD 5 Ryzen 2600x</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>RAM:</th><th>DDR4 16 GB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Video Card:</th><th>Radeon RX 590</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>Storage:</th><th>HDD 2 TB</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
         <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
+          <th>SSD:</th><th>512Gb nVme</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
+        </tr>
+        <tr>
+          <th>Power Supply:</th><th>600 W</th><th><label for=""> 39.000 Ft</label>
+          <button class="btnMatch">🔁</button></th>
         </tr>
       </table>
     <p class="price">220.000 Ft</p>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
-
-  <div class="card">
-        <h1>PC6</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
-
-
-
-
-
-
 
 
 
@@ -582,17 +537,6 @@
 
 <!--  ↓↓ FOOTER ↓↓  -->
 <div class="footer">
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div class="footeradatok">
@@ -617,8 +561,6 @@
 <div>
 
 
-
-
 </div>
 <!--  ↑↑ FOOTER ↑↑  -->
 </div>
@@ -629,6 +571,7 @@
 
 
 <!--  ↓ Saját scriptek ↓  -->
+<script src="../Javascript/checkbox.js"></script>
 <script src="../Javascript/pluszminus.js"></script>
 <!--  ↑ Saját scriptek ↑  -->
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ↓ Javascriptek ↓ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- ↑ Javascriptek ↑ -->
     
     <!--  ↓ Bootstrap Stylesheet ↓  -->
@@ -13,7 +14,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
     crossorigin="anonymous">
     <!--  ↑ Bootstrap Stylesheet ↑  -->
-    <title>Parts - GRIDS</title>
+    <title>Parts</title>
     <!--  ↓ Custom Stylesheet ↓  -->
     <link rel="stylesheet" href="../CSS/styles.css">
     <!--  ↑ Custom Stylesheet ↑  -->
@@ -97,11 +98,6 @@
   <input type="checkbox" id="" name="">
   <label for="">LGA1200</label>
 </div>
-<div>
-  <input type="checkbox" id="" name="">
-  <label for="">LGA1700</label>
-</div>
-
 <br>
 
 <div>
@@ -250,13 +246,14 @@
 <!--  ↓↓ Horizontal NAV-bar ↓↓  -->
 <div class="horizontal">
   <div class="horizontal-row">
-    <div><button>Alaplap</button></div>
-    <div><button>Processzor</button></div>
-    <div><button>RAM</button></div>
-    <div><button>Videókártya</button></div>
-    <div><button>Storage</button></div>
-    <div><button>Tápegység</button></div>
-    <div><button>Gépház</button></div>
+    <div><button id="btnmotherboard">Alaplap</button></div>
+    <div><button onclick="btncpu()">Processzor</button></div>
+    <div><button onclick="btnram()">RAM</button></div>
+    <div><button onclick="btngpu()">Videókártya</button></div>
+    <div><button onclick="btnstorage()">Storage</button></div>
+    <div><button onclick="btnpwrsply()">Tápegység</button></div>
+    <div><button onclick="btncase()">Gépház</button></div>
+
     <div><input type="text"></div>
     <div><button>keresés</button></div>
   </div>
@@ -270,299 +267,65 @@
 <!--  ↓↓ TERMÉKEK ↓↓  -->
 <div class="products">
 
-  <div class="card">
-        <h1>PC1</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><label for=""> 39.000 Ft</label><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
 
-  <div class="card">
-        <h1>PC2</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
+  
+  <div class="card" id="motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/MotherboardPlaceholder.png" alt="PICTURE" class="itempicture">
+    <p>Tomahawk B450M</p>
+    <p class="price">45.000 Ft</p>
       <table class="pcparts">
         <tr>
           <th>Motherboard:</th>
           <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
         </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
+       </table>
     <div>
-      <span class="min button">
-        -
-        </span>
+      <span class="minbutton">-</span>
         <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
-
-  <div class="card">
-        <h1>PC3</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
-
-  <div class="card">
-        <h1>PC4</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
-
-  <div class="card">
-        <h1>PC5</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
-      </div>
-    <p><button>MEGVESZEM</button></p>
-  </div>
-
-  <div class="card">
-        <h1>PC6</h1>
-    <img src="../Pictures/PCPlaceholder.png" alt="PICTURE" class="itempicture">
-      <table class="pcparts">
-        <tr>
-          <th>Motherboard:</th>
-          <th>Tomahawk B450M</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Processzor:</th>
-          <th>AMD 5 Ryzen 2600</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>RAM:</th>
-          <th>DDR4 8Gb</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Video Card:</th>
-          <th>RX 590</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>Storage:</th>
-          <th>HDD 2Tb 7200RPM</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-        <tr>
-          <th>SSD:</th>
-          <th>516Gb nVme</th>
-          <th><button class="btnMatch">🔁</button></th>
-        </tr>
-      </table>
-    <p class="price">220.000 Ft</p>
-    <div>
-      <span class="min button">
-        -
-        </span>
-        <input type="text" name="qty" id="qty" maxlength="12"/>
-        <span class="plus button">
-        +
-        </span>
+        <span class="plusbutton">+</span>
       </div>
     <p><button>MEGVESZEM</button></p>
   </div>
 
 
+  <div class="card" id="cpu">
+        <h1>Processzor</h1>
+    <img src="../Pictures/Items/MotherboardPlaceholder.png" alt="PICTURE" class="itempicture">
+    <p>Ryzen 5 2600x</p>
+    <p class="price">65.000 Ft</p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Ryzen 5 2600x</th>
+        </tr>
+       </table>
+    <div>
+      <span class="minbutton">-</span>
+        <input type="text" name="qty" id="qty" maxlength="12"/>
+        <span class="plusbutton">+</span>
+      </div>
+    <p><button>MEGVESZEM</button></p>
+  </div>
 
-
-
-
+  <div class="card" id="ram">
+        <h1>RAM</h1>
+    <img src="../Pictures/Items/MotherboardPlaceholder.png" alt="PICTURE" class="itempicture">
+    <p>Kingstone 8 Gb</p>
+    <p class="price">10.000 Ft</p>
+      <table class="pcparts">
+        <tr>
+          <th>RAM:</th>
+          <th>Kingstone 8 Gb</th>
+        </tr>
+       </table>
+    <div>
+      <span class="minbutton">-</span>
+        <input type="text" name="qty" id="qty" maxlength="12"/>
+        <span class="plusbutton">+</span>
+      </div>
+    <p><button>MEGVESZEM</button></p>
+  </div>
 
 
 
@@ -621,9 +384,8 @@
 
 
 
-
-
 <!--  ↓ Saját scriptek ↓  -->
+<script src="../Javascript/checkbox.js"></script>
 <script src="../Javascript/pluszminus.js"></script>
 <!--  ↑ Saját scriptek ↑  -->
 
@@ -633,4 +395,65 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 crossorigin="anonymous"></script>
 <!--  ↑ Bootstrap Scripts ↑  -->
 </body>
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function(){
+      $("#btnmotherboard").click(function(){
+        $("#motherboard").toggle();
+      });
+    });
+
+
+  $(document).ready(function(){
+      $("#btncpu").click(function(){
+        $("#cpu").toggle();
+      });
+    });
+
+
+
+</script>
+
+
+<!--
+<script>
+  function btnmotherboard() {
+    var x = document.getElementById("motherboard");
+    if (x.style.display === "none") {
+      x.style.display = "content";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+
+
+  function btncpu() {
+    var x = document.getElementById("cpu");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function btnram() {
+    var x = document.getElementById("ram");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+-->
+
+
+
 </html>
