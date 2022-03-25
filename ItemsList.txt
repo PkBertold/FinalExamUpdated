@@ -1,0 +1,670 @@
+|=====|
+| HDD |
+|=====|
+
+
+<div class="card hdd">
+        <h1>HDD</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Western Digital 4TB 256MB RED Pro</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>HDD:</th>
+          <th>Western Digital 4TB 256MB RED Pro</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card hdd">
+        <h1>HDD</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Seagate BarraCuda 3.5 2TB</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>HDD:</th>
+          <th>Seagate BarraCuda 3.5 2TB</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card hdd">
+        <h1>HDD</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Western Digital Blue 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>HDD:</th>
+          <th>Western Digital Blue 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card hdd">
+        <h1>HDD</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Seagate BarraCuda Pro 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>HDD:</th>
+          <th>Seagate BarraCuda Pro 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card hdd">
+        <h1>HDD</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Western Digital WD Black 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>HDD:</th>
+          <th>Western Digital WD Black 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+
+|=============|
+| MOTHERBOARD |
+|=============|
+
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GIGABYTE B560M DS3H</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>GIGABYTE B560M DS3H</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Asus PRIME B550M-A (WI-FI)</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>Asus PRIME B550M-A (WI-FI)</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GIGABYTE B365M H</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>GIGABYTE B365M H</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>ASRock H81M-VG4 R3.0</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>ASRock H81M-VG4 R3.0</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GIGABYTE B450M DS3H</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>GIGABYTE B450M DS3H</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Asus Z170-P D3</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>Asus Z170-P D3</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Asus Z170-P D3</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>Asus Z170-P D3</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>MSI Z390-A PRO</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>MSI Z390-A PRO</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card motherboard">
+        <h1>Alaplap</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>MSI Z490-A PRO</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>MSI Z490-A PRO</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+|======|
+| NVME |
+|======|
+
+
+<div class="card nvme">
+        <h1>nVme</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Western Digital 240GB WDS240G2G0B M.2</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Western Digital 240GB WDS240G2G0B M.2</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card nvme">
+        <h1>nVme</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Samsung 980 PRO NVMe 2TB M. 2 PCIe</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Samsung 980 PRO NVMe 2TB M. 2 PCIe</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card nvme">
+        <h1>nVme</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Kingston A2000 250GB M. 2 PCIe</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Kingston A2000 250GB M. 2 PCIe</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card nvme">
+        <h1>nVme</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Kingston A2000 500GB M. 2 PCIe</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Kingston A2000 500GB M. 2 PCIe</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+
+|=====|
+| CPU |
+|=====|
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i5-10400</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Intel Core i5-10400</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>AMD Ryzen 5 1600</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>AMD Ryzen 5 1600</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i7-9700KF</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Intel Core i7-9700KF</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i5-4570</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Intel Core i5-4570</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>AMD Ryzen 5 2600X</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>AMD Ryzen 5 2600X</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i5-8400</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Intel Core i5-8400</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i7-9700K</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>Intel Core i7-9700K</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+<div class="card cpu">
+        <h1>CPU</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Intel Core i5-11400</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>CPU:</th>
+          <th>IIntel Core i5-11400</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+|==========|
+| PWR SPLY |
+|==========|
+
+<div class="card pwrsply">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GigaByte 450W</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>PWR SPLY:</th>
+          <th>GigaByte 450W</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+
+|=====|
+| RAM |
+|=====|
+
+<div class="card ram">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Kingston 8GB 2666MHz DDR4 HyperX FURY</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>RAM:</th>
+          <th>Kingston 8GB 2666MHz DDR4 HyperX FURY</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card ram">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Kingmax 2GB DDR3 1333MHz</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>RAM:</th>
+          <th>Kingmax 2GB DDR3 1333MHz</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+
+
+|=====|
+| SSD |
+|=====|
+
+<div class="card ssd">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Samsung 1TB 870 QVO SSD (MZ-77Q1T0BW)</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Samsung 1TB 870 QVO SSD (MZ-77Q1T0BW)</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card ssd">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Kingston A400 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Kingston A400 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card ssd">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Samsung 870 QVO 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Samsung 870 QVO 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+<div class="card ssd">
+        <h1>Táp</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Crucial BX500 2.5</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>SSD:</th>
+          <th>Crucial BX500 2.5</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+
+
+
+|=====|
+| VGA |
+|=====|
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>Gigabyte RTX 3060 Ti OC 8GB DDR6 LHR</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>Gigabyte RTX 3060 Ti OC 8GB DDR6 LHR</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>BIOSTAR GeForce 210</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>BIOSTAR GeForce 210</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>MSI Radeon RX 580</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>MSI Radeon RX 580</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>MSI Radeon RX 590 ARMOR OC</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>MSI Radeon RX 590 ARMOR OC</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>MSI Radeon RX 6800</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>MSI Radeon RX 6800</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>PowerColor Radeon RX 6900 XT</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>PowerColor Radeon RX 6900 XT</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GIGABYTE GeForce GTX 750 Ti OC</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>GIGABYTE GeForce GTX 750 Ti OC</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>GIGABYTE GeForce GTX 1660 OC</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>GIGABYTE GeForce GTX 1660 OC</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>
+
+
+
+<div class="card vga">
+        <h1>Videókártya</h1>
+    <img src="../Pictures/Items/" alt="PICTURE" class="itempicture">
+    <p>ASUS GeForce RTX 2080 Ti OC</p>
+    <p class="price"></p>
+      <table class="pcparts">
+        <tr>
+          <th>VGA:</th>
+          <th>ASUS GeForce RTX 2080 Ti OC</th>
+        </tr>
+       </table>
+    <p><button>MEGVESZEM</button></p>
+ </div>

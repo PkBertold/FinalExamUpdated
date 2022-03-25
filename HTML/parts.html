@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +17,7 @@
     <title>Parts</title>
     <!--  ↓ Custom Stylesheet ↓  -->
     <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="../Pictures/favicon.ico">
     <!--  ↑ Custom Stylesheet ↑  -->
 </head>
 <body>
@@ -249,7 +250,7 @@
     <div><button class="btnmotherboard">Alaplap</button></div>
     <div><button class="btncpu">Processzor</button></div>
     <div><button class="btnram">RAM</button></div>
-    <div><button class="btngpu">Vclasseókártya</button></div>
+    <div><button class="btngpu">Videókártya</button></div>
     <div><button class="btnstorage">Storage</button></div>
     <div><button class="btnpwrsply">Tápegység</button></div>
     <div><button class="btncase">Gépház</button></div>
@@ -403,24 +404,8 @@
 <!--  ↑↑ TERMÉKEK ↑↑  -->
 
 
-
-
-
-
-
 <!--  ↓↓ FOOTER ↓↓  -->
 <div class="footer">
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div class="footeradatok">
@@ -444,20 +429,11 @@
       </div>
 <div>
 
-
-
-
 </div>
 <!--  ↑↑ FOOTER ↑↑  -->
 </div>
 <!--  ↑↑ DIVIRI ↑↑  -->
 
-
-
-<!--  ↓ Saját scriptek ↓  -->
-<script src="../Javascript/checkbox.js"></script>
-<script src="../Javascript/pluszminus.js"></script>
-<!--  ↑ Saját scriptek ↑  -->
 
 <!--  ↓ Bootstrap Scripts ↓  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
@@ -466,79 +442,10 @@ crossorigin="anonymous"></script>
 <!--  ↑ Bootstrap Scripts ↑  -->
 </body>
 
-
-
-
-
-
-
-<script>
-  $(document).ready(function(){
-      $(".btnmotherboard").click(function(){
-        $(".motherboard").toggle();
-      });
-    });
-
-
-  $(document).ready(function(){
-      $(".btncpu").click(function(){
-        $(".cpu").toggle();
-      });
-    });
-
-
-
-  $(document).ready(function(){
-      $(".btnram").click(function(){
-        $(".ram").toggle();
-      });
-    });
-
-
-  $(document).ready(function(){
-      $(".btngpu").click(function(){
-        $(".gpu").toggle();
-      });
-    });
-
-
-
-</script>
-
-
-<!--
-<script>
-  function btnmotherboard() {
-    var x = document.getElementById("motherboard");
-    if (x.style.display === "none") {
-      x.style.display = "content";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-
-
-  function btncpu() {
-    var x = document.getElementById("cpu");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function btnram() {
-    var x = document.getElementById("ram");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-</script>
--->
-
-
+<!--  ↓ Saját scriptek ↓  -->
+<script src="../Javascript/checkbox.js"></script>
+<script src="../Javascript/pluszminus.js"></script>
+<script src="../Javascript/myscripts.js"></script>
+<!--  ↑ Saját scriptek ↑  -->
 
 </html>
